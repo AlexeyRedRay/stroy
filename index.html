@@ -1,37 +1,365 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Ремонт</title>
+</head>
+<body>
+      <header class="header">
+         <div class="header__logo">ремонт</div>
+         <nav class="header__nav">
+            <a class="header__nav-link" href="#main">главная</a>
+            <a class="header__nav-link" href="#portfolio">портфолио</a>
+            <a class="header__nav-link" href="#about">о нас</a>
+            <a class="header__nav-link" href="#reviews">отзывы</a>
+         </nav>
+         <div class="header__call">
+            <a class="header__tel" href="tel:+79999999999">+7 999 999-99-99</a>
+            <button class="header__btn btn" data-popup>Заказать звонок</button>
+         </div>
+         <button class="header__burger-btn"><span></span></button>
+      </header>
+      <main class="main">
+         <section class="main__head head" id="main">
+            <div class="head__wrapper">
+               <h1 class="head__title title">Профессиональный ремонт и отделка недвижимости «под ключ»</h1>
+               <p class="head__text">с фиксированной датой и ценой по договору</p>
+               <button class="head__btn btn" data-popup>Оставить заявку</button>
+            </div>
+         </section>
+         <section class="main__introduction introduction block--dark">
+            <div class="introduction__propose">
+               <h2 class="introduction__title title"><span>ремонт</span> — <br> дело ответственное</h2>
+               <div class="introduction__block-text">
+                  <p class="introduction__text">Вы хотите отремонтировать свой дом? Мы поможем вам воплотить мечту.</p>
+                  <p class="introduction__text">Самый важный результат в нашей работе — репутация компании и счастливые обладатели комфортного жилья.</p>
+               </div>
+               <div class="introduction__block-btn">
+                  <button class="introduction__btn" data-popup>У меня свой <br> дизайн-проект</button>
+                  <button class="introduction__btn" data-popup>Нужна помощь <br> специалиста</button>
+               </div>
+            </div>
+            <div class="introduction__advantages">
+               <a  class="introduction__link title" href="">Посмотрите <br> наши работы</a>
+               <h2 class="introduction__title title">Преимущества</h2>
+               <ul class="introduction__list introduction__block-text">
+                  <li class="introduction__item introduction__text">Один подрядчик на все виды работ</li>
+                  <li class="introduction__item introduction__text">От проекта до сдачи объекта под ключ</li>
+                  <li class="introduction__item introduction__text">Фиксированная цена в договоре</li>
+                  <li class="introduction__item introduction__text">Гарантия на работы</li>
+                  <li class="introduction__item introduction__text">Строители с опытом более 15 лет</li>
+               </ul>
+            </div>
+         </section>
+         <section class="main__about about block--dark" id="about">
+            <div class="about__block-text">
+               <h2 class="about__title title">МЫ — КОМПАНИЯ «Ремонт»</h2>
+               <p class="about__text">Давайте знакомиться!</p>
+               <p class="about__text">Занимаемся ремонтом недвижимости любой сложности «под ключ»</p>
+               <p class="about__text">Мы всегда готовы предложить услуги по ремонту и отделке комфортного и уютного гнёздышка по готовому или индивидуальному проекту. Мы ориентируемся на качество и сроки ремонта, чтобы все наши клиенты остались довольны сотрудничеством и могли в полной мере насладиться комфортом в домах.</p>
+               <p class="about__text">Мы ремонтируем недвижимость применяя современные техники и технологии</p>
+               <ul class="about__features">
+                  <li class="about__feature text"><img src="img/about__feature-01.svg" alt="">поэтапная <br> работа</li>
+                  <li class="about__feature text"><img src="img/about__feature-02.svg" alt="">по договору <br> точно в срок</li>
+                  <li class="about__feature text"><img src="img/about__feature-03.svg" alt=""> многоуровневый <br> контроль качества</li>
+                  <li class="about__feature text"><img src="img/about__feature-04.svg" alt="">лучшая цена <br> на рынке</li>
+               </ul>
+            </div>
+            <div class="about__block-property">
+               <div class="about__property">
+                  <p class="about__property-description">2007</p>
+                  <p class="about__property-term">год основания компании</p>
+               </div>
+               <div class="about__property">
+                  <p class="about__property-description">250+</p>
+                  <p class="about__property-term">довольных клиентов</p>
+               </div>
+               <div class="about__property">
+                  <p class="about__property-description">200+</p>
+                  <p class="about__property-term">выполненных ремонтов</p>
+               </div>
+               <div class="about__property">
+                  <p class="about__property-description">5</p>
+                  <p class="about__property-term">лет гарантии</p>
+               </div>
+            </div>
+         </section>
+         <section class="main__choice choice">
+            <h2 class="choice__title title">Три варианта ремонта на ваш выбор</h2>
+            <div class="choice__wrapper">
+               <div class="choice__variant block--dark">
+                  <h3 class="choice__subtitle subtitle">хороший косметический ремонт</h3>
+                  <p class="choice__parameter"> от 1000 руб./м2</p>
+                  <p class="choice__advice">Подойдет:</p>
+                  <ul class="choice__advice-list">
+                     <li class="choice__advice-item">Чтобы освежить квартиру</li>
+                     <li class="choice__advice-item">Для сдачи в аренду</li>
+                     <li class="choice__advice-item">Для предпродажной подготовки</li>
+                  </ul>
+                  <button class="choice__btn btn" data-popup>заказать</button>
+               </div>
+               <div class="choice__variant block--dark">
+                  <h3 class="choice__subtitle subtitle">серьёзный капитальный ремонт</h3>
+                  <p class="choice__parameter">от 1800 руб./м2</p>
+                  <p class="choice__advice">Подойдет:</p>
+                  <ul class="choice__advice-list">
+                     <li class="choice__advice-item">Для ремонта новостроек</li>
+                     <li class="choice__advice-item">Для ремонта коттеджа</li>
+                     <li class="choice__advice-item">Чтобы полностью отремонтировать квартиру</li>
+                  </ul>
+                  <button class="choice__btn btn" data-popup>заказать</button>
+               </div>
+               <div class="choice__variant block--dark">
+                  <h3 class="choice__subtitle subtitle">стильный дизайнерский ремонт</h3>
+                  <p class="choice__parameter">от 1800 руб./м2</p>
+                  <p class="choice__advice">Подойдет:</p>
+                  <ul class="choice__advice-list">
+                     <li class="choice__advice-item">Для авторского дизайна</li>
+                     <li class="choice__advice-item">Для применения сложных технологий</li>
+                     <li class="choice__advice-item">Для роскошной жизни</li>
+                  </ul>
+                  <button class="choice__btn btn" data-popup>заказать</button>
+               </div>
+            </div>
+         </section>
+         <section class="main__portfolio portfolio" id="portfolio">
+            <h2 class="portfolio__title title">наши работы</h2>
+            <div class="portfolio__slider swiper">
+               <div class="swiper-wrapper">
 
-You can use the [editor on GitHub](https://github.com/AlexeyRedRay/stroy/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlexeyRedRay/stroy/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+                  <div class="swiper-slide">
+                     <div class="portfolio-slide">
+                        <img class="portfolio-slide__img" src="img/portfolio__img-01.jpg" alt="portfolio">
+                        <div class="portfolio-slide__block-text block--dark">
+                           <h3 class="portfolio-slide__title">Ремонт 3-х комнатной квартиры</h3>
+                           <p class="portfolio-slide__description"><span>Адрес объекта:</span> МЖК City</p>
+                           <p class="portfolio-slide__description"><span>Площадь:</span> 110 м2</p>
+                           <p class="portfolio-slide__description"><span>Срок выполнения:</span> 25 дней</p>
+                           <p class="portfolio-slide__description"><span>Стоимость ремонта:</span> 250 000 рублей</p>
+                        </div>
+                     </div> 
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="portfolio-slide">
+                        <img class="portfolio-slide__img" src="img/portfolio__img-01.jpg" alt="portfolio">
+                        <div class="portfolio-slide__block-text block--dark">
+                           <h3 class="portfolio-slide__title">Ремонт 3-х комнатной квартиры</h3>
+                           <p class="portfolio-slide__description"><span>Адрес объекта:</span> МЖК City</p>
+                           <p class="portfolio-slide__description"><span>Площадь:</span> 110 м2</p>
+                           <p class="portfolio-slide__description"><span>Срок выполнения:</span> 25 дней</p>
+                           <p class="portfolio-slide__description"><span>Стоимость ремонта:</span> 250 000 рублей</p>
+                        </div>
+                     </div> 
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="portfolio-slide">
+                        <img class="portfolio-slide__img" src="img/portfolio__img-01.jpg" alt="portfolio">
+                        <div class="portfolio-slide__block-text block--dark">
+                           <h3 class="portfolio-slide__title">Ремонт 3-х комнатной квартиры</h3>
+                           <p class="portfolio-slide__description"><span>Адрес объекта:</span> МЖК City</p>
+                           <p class="portfolio-slide__description"><span>Площадь:</span> 110 м2</p>
+                           <p class="portfolio-slide__description"><span>Срок выполнения:</span> 25 дней</p>
+                           <p class="portfolio-slide__description"><span>Стоимость ремонта:</span> 250 000 рублей</p>
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+               <div class="swiper-pagination"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+            </div>
+         </section>
+         <section class="main__scheme scheme block--dark">
+            <h2 class="scheme__title title">схема работы</h2>
+            <ul class="scheme__list">
+               <li class="scheme__stage">
+                  <div class="scheme__stage-number">
+                     <p>01</p> 
+                     <span class="scheme__arrow arrow"></span> 
+                  </div>
+                  <p class="scheme__stage-title">Вы оставляете заявку</p>
+                  <p class="scheme__stage-text">Можете оставить заявку на сайте, позвонить или написать на нашу почту</p>
+               </li>
+               <li class="scheme__stage">
+                  <div class="scheme__stage-number">
+                     <p>02</p> 
+                     <span class="scheme__arrow arrow"></span> 
+                  </div>
+                  <p class="scheme__stage-title">Организация встречи</p>
+                  <p class="scheme__stage-text">Сделаем все замеры, обсудим Ваши пожелания, порекомендуем подходящие материалы</p>
+               </li>
+               <li class="scheme__stage">
+                  <div class="scheme__stage-number">
+                     <p>03</p> 
+                     <span class="scheme__arrow arrow"></span> 
+                  </div>
+                  <p class="scheme__stage-title">Мы подписываем договор</p>
+                  <p class="scheme__stage-text">Предоставляем Вам готовую смету, подписываем договор и мы приступаем к работе</p>
+               </li>
+               <li class="scheme__stage">
+                  <div class="scheme__stage-number">
+                     <p>04</p> 
+                     <span class="scheme__arrow arrow"></span> 
+                  </div>
+                  <p class="scheme__stage-title">Мы приступаем к работе</p>
+                  <p class="scheme__stage-text">В течении 7 рабочих дней приступаем к ремонту, отправляем фото и видео отчеты</p>
+               </li>
+            </ul>
+         </section>
+         <section class="main__request request block--dark">
+            <div class="request__decor">
+               <img src="img/request__decor-01.svg" alt="decor-img">
+               <span class="request__arrow arrow"></span>
+               <img src="img/request__decor-02.svg" alt="decor-img">
+               <span class="request__arrow arrow"></span>
+               <img src="img/request__decor-03.svg" alt="decor-img">
+            </div>
+            <div class="request__body">
+               <h2 class="request__title title">Сделай ремонт дома вместе с нами</h2>
+               <p class="request__text">Созвонимся, встретимся и начнём...</p>
+               <form class="request__form form" action="" >
+                  <input class="request__input input block--dark" type="tel" name="request" placeholder="Ваш телефон" required data-input-tel>
+                  <button class="request__btn submit-btn btn" type="submit" data-submit >Оставить заявку</button>
+               </form>
+               <p class="request__subtext subtext">Нажимая на кнопку, Вы соглашаетесь с условиями обработки персональных данных</p>
+            </div>
+         </section>
+         <section class="main__reviews reviews" id="reviews">
+            <h2 class="reviews__title title">отзывы</h2>
+            <div class="reviews__slider block--dark swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="reviews__slide">
+                        <div class="reviews-slide__block-text">
+                           <h3 class="reviews-slide__slide-title">Ремонт 3-х комнатной квартиры</h3>
+                           <div class="reviews-slide__feature">
+                              <p class="reviews-slide__description"><span>Заказчик:</span> <br> Иванов Иван Иванович</p>
+                              <p class="reviews-slide__description"><span>Адрес объекта:</span> <br> МЖК City</p>
+                           </div>  
+                           <div class="reviews-slide__body">
+                              <div class="reviews-slide__description"><span>Задача:</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pulvinar lectus turpis mattis orci. Nisi id tincidunt lacus, sit mi nunc integer ornare. Nunc dignissim nunc iaculis lacus viverra pulvinar ullamcorper ornare. Senectus viverra duis eget cursus interdum nunc id tristique maecenas.</p></div>
+                              <div class="reviews-slide__description"><span>Отзыв:</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pulvinar lectus turpis mattis orci. Nisi id tincidunt lacus, sit mi nunc integer ornare. Nunc dignissim nunc iaculis lacus viverra pulvinar ullamcorper ornare. Senectus viverra duis eget cursus interdum nunc id tristique maecenas.</p></div>
+                           </div>
+                        </div>
+                        <img class="reviews-slide__img" src="img/reviews__img-01.jpg" alt="reviews">
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="reviews__slide">
+                        <div class="reviews-slide__block-text">
+                           <h3 class="reviews-slide__slide-title">Ремонт 3-х комнатной квартиры</h3>
+                           <div class="reviews-slide__feature">
+                              <p class="reviews-slide__description"><span>Заказчик:</span> <br> Иванов Иван Иванович</p>
+                              <p class="reviews-slide__description"><span>Адрес объекта:</span> <br> МЖК City</p>
+                           </div>  
+                           <div class="reviews-slide__body">
+                              <div class="reviews-slide__description"><span>Задача:</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pulvinar lectus turpis mattis orci. Nisi id tincidunt lacus, sit mi nunc integer ornare. Nunc dignissim nunc iaculis lacus viverra pulvinar ullamcorper ornare. Senectus viverra duis eget cursus interdum nunc id tristique maecenas.</p></div>
+                              <div class="reviews-slide__description"><span>Отзыв:</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pulvinar lectus turpis mattis orci. Nisi id tincidunt lacus, sit mi nunc integer ornare. Nunc dignissim nunc iaculis lacus viverra pulvinar ullamcorper ornare. Senectus viverra duis eget cursus interdum nunc id tristique maecenas.</p></div>
+                           </div>
+                        </div>
+                        <img class="reviews-slide__img" src="img/reviews__img-01.jpg" alt="reviews">
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="reviews__slide">
+                        <div class="reviews-slide__block-text">
+                           <h3 class="reviews-slide__slide-title">Ремонт 3-х комнатной квартиры</h3>
+                           <div class="reviews-slide__feature">
+                              <p class="reviews-slide__description"><span>Заказчик:</span> <br> Иванов Иван Иванович</p>
+                              <p class="reviews-slide__description"><span>Адрес объекта:</span> <br> МЖК City</p>
+                           </div>  
+                           <div class="reviews-slide__body">
+                              <div class="reviews-slide__description"><span>Задача:</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pulvinar lectus turpis mattis orci. Nisi id tincidunt lacus, sit mi nunc integer ornare. Nunc dignissim nunc iaculis lacus viverra pulvinar ullamcorper ornare. Senectus viverra duis eget cursus interdum nunc id tristique maecenas.</p></div>
+                              <div class="reviews-slide__description"><span>Отзыв:</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pulvinar lectus turpis mattis orci. Nisi id tincidunt lacus, sit mi nunc integer ornare. Nunc dignissim nunc iaculis lacus viverra pulvinar ullamcorper ornare. Senectus viverra duis eget cursus interdum nunc id tristique maecenas.</p></div>
+                           </div>
+                        </div>
+                        <img class="reviews-slide__img" src="img/reviews__img-01.jpg" alt="reviews">
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+            </div>
+         </section>
+         <section class="main__questions questions">
+            <h2 class="questions__title title">Ответы на часто задаваемые вопросы</h2>
+            <ul class="questions__list">
+               <li class="questions__item">
+                  <input class="questions__input visually-hidden" type="checkbox" id="questions-1">
+                  <label class="questions__question" for="questions-1">С чего лучше начать ремонт квартиры?</label>
+                  <p class="questions__answer">Ремонт квартиры чаще всего начинается с подготовительных или демонтажных работ. Вы всегда можете оставить заявку на сайте и мы подробно расскажем вам, с чего лучше начинать ремонт квартиры</p>
+               </li>
+               <li class="questions__item">
+                  <input class="questions__input visually-hidden" type="checkbox" id="questions-2">
+                  <label class="questions__question" for="questions-2">С чего лучше начать ремонт квартиры втрой раз?</label>
+                  <p class="questions__answer">Ремонт квартиры втрой раз чаще всего начинается с подготовительных или демонтажных работ. Вы всегда можете оставить заявку на сайте и мы подробно расскажем вам, с чего лучше начинать ремонт квартиры</p>
+               </li>
+               <li class="questions__item">
+                  <input class="questions__input visually-hidden" type="checkbox" id="questions-3">
+                  <label class="questions__question" for="questions-3">С чего лучше начать ремонт квартиры третий раз?</label>
+                  <p class="questions__answer">Ремонт квартиры третий раз чаще всего начинается с подготовительных или демонтажных работ. Вы всегда можете оставить заявку на сайте и мы подробно расскажем вам, с чего лучше начинать ремонт квартиры</p>
+               </li>
+               <li class="questions__item">
+                  <input class="questions__input visually-hidden" type="checkbox" id="questions-4">
+                  <label class="questions__question" for="questions-4">С чего лучше начать ремонт квартиры четвертый раз?</label>
+                  <p class="questions__answer">Ремонт квартиры четвертый раз чаще всего начинается с подготовительных или демонтажных работ. Вы всегда можете оставить заявку на сайте и мы подробно расскажем вам, с чего лучше начинать ремонт квартиры</p>
+               </li>
+               <li class="questions__item">
+                  <input class="questions__input visually-hidden" type="checkbox" id="questions-5">
+                  <label class="questions__question" for="questions-5">С чего лучше начать ремонт квартиры пятый раз?</label>
+                  <p class="questions__answer">Ремонт квартиры пятый раз чаще всего начинается с подготовительных или демонтажных работ. Вы всегда можете оставить заявку на сайте и мы подробно расскажем вам, с чего лучше начинать ремонт квартиры</p>
+               </li>
+            </ul>
+         </section>
+         <section class="main__call call block--dark">
+            <div class="call__block-text">
+               <h2 class="call__title title"> Готовы обсудить ваш ремонт?</h2>
+               <h3 class="call__subtitle">Бесплатно вызовите нашего замерщика в удобное для вас время</h3>
+               <p class="call__consultation">К вам на объект приедет наш специалист, который:</p>
+               <ul class="call__consultation-list">
+                  <li class="call__consultation-item">Сделает точный замер;</li>
+                  <li class="call__consultation-item">Подскажет по выбору материала;</li>
+                  <li class="call__consultation-item">Проконсультирует по видам работ;</li>
+                  <li class="call__consultation-item">Сориентуриет по стоимости и срокам;</li>
+               </ul>
+            </div>
+            <div class="call__block-form">
+               <h3 class="call__subtitle">Заполните форму, мы перезвоним вам и согласуем дату и время визита специалиста</h3>
+               <form class="call__form form" action="">
+                  <input class="call__input input block--dark" type="tel" name="call" placeholder="Ваш телефон" required data-input-tel>
+                  <button class="call__btn submit-btn btn" type="submit" data-submit>Перезвоните мне</button>
+               </form>
+               <p class="call__subtext subtext">Нажимая на кнопку, Вы соглашаетесь с условиями обработки персональных данных</p>
+            </div>
+         </section>
+      </main>
+      <footer class="footer block--dark">
+         <a class="footer__link" href="tel:+79999999999">+7 999 999-99-99</a>
+         <p class="footer__disclaimer">Информация, размещённая на этой веб-странице, носит ознакомительный характер</p>
+         <a class="footer__link" href="mailto:pochta@e-mail.ru">pochta@e-mail.ru</a>
+      </footer>
+      <section class="popup d-none">
+         <div class="popup__wrapper block--dark">
+            <h2 class="popup__title title">Заполните форму</h2>
+            <p class="popup__subtitle subtitle">После этого мы перезвоним и обсудим все детали</p>
+            <form action="" class="popup__form">
+               <div class="popup__input-block">
+                  <input class="popup__input input block--dark" type="text" name="popup__name" placeholder="Имя" required>
+                  <input class="popup__input input block--dark" type="tel" name="popup__tel" placeholder="Ваш телефон" required data-input-tel>
+               </div>
+               <textarea class="popup__textarea input block--dark" name="popup__textarea" placeholder="Комментарий к заявке"></textarea>
+               <div class="popup__submit-block">
+                  <p class="popup__subtext subtext">Нажимая на кнопку, Вы соглашаетесь с условиями обработки персональных данных</p>
+                  <button class="popup__btn btn" type="submit" data-submit>Оставить заявку</button>
+               </div>
+            </form>
+         </div>
+      </section>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
